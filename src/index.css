@@ -1,0 +1,75 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	background: white;
+}
+.ch{
+	height: 100px;
+	width: 100px;
+	border-radius: 5px;
+	margin-top: 3px;
+	margin-left: 3px;
+	display: inline-block;
+
+
+}
+.ch i{
+	line-height: 100px;
+	height: 50px;
+	width: 50px;
+
+}
+.shadow{
+	-webkit-box-shadow: -2px 5px 14px 0px rgba(0,0,0,0.28); 
+box-shadow: -2px 5px 14px 0px rgba(0,0,0,0.28);
+}
+.header{
+	width: 100%;
+	height: 50px;
+	background: white;
+	z-index: 3;
+	position: fixed;
+	
+}
+.header i{
+	margin-top: 6px;
+	margin-left: 6px;
+}
+.menu{
+	height: 100%;
+	width: 100%;
+	background: white;
+	z-index: 10;
+	position: fixed;
+	top: 50px;
+	display: none;
+	
+}
+.menu .ch{
+	width: 100%;
+	height: 50px;
+	background: white;
+	//text-align: center;
+	line-height: 50px;
+	
+	text-decoration: none;
+	color: black;
+}
+.body{
+	height: 100%;
+	width: 100%;
+	position: fixed;
+	top: 50px;
+	z-index: 1;
+}
+.current{
+height: 100%;
+width: 0%;
+background: white;
+top: 50px;
+position: fixed;
+z-index: 2;
+display: none;
+}
